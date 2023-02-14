@@ -1,0 +1,68 @@
+.variables {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    /* margin: auto 5rem; */
+}
+
+.variables-line {
+    width: 40%;
+    text-align: center;
+}
+
+.progress {
+    width: 70%;
+    height: 2rem;
+    background-color: cyan;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+#progress-life {
+    width: 50%;
+    height: 100%;
+    border-radius: 2rem;
+    background-color: darkmagenta;
+}
+
+#progress-sleep {
+    width: 50%;
+    height: 100%;
+    border-radius: 2rem;
+    background-color: darkmagenta;
+}
+
+#progress-food {
+    width: 50%;
+    height: 100%;
+    border-radius: 2rem;
+    background-color: darkmagenta;
+}
+
+.pets-images {
+    border: 1px solid red;
+    text-align: center;
+    padding: 5rem;
+}
+
+#pets {
+    width: 10rem;
+    height: 10rem;
+    animation-duration: 1s;
+    animation-name: animationpets;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animationpets {
+    from {
+        position: relative;
+        top: 2rem;
+      }
+    
+      to {
+        position: relative;
+        top: -2rem;
+      }
+}

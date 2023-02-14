@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Select Pets</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </header>
+    <main>
+        <div class="game">
+            <div class="variables">
+                <div class="variables-line">
+                    <h3>Vida</h3>
+                    <div class="progress">
+                        <div id="progress-life"></div>
+                    </div>
+                </div>
+                <div class="variables-line">
+                    <h3>Sueño</h3>
+                    <div class="progress">
+                        <div id="progress-sleep"></div>
+                    </div>
+                </div>
+                <div class="variables-line">
+                    <h3>Comida</h3>
+                    <div class="progress">
+                        <div id="progress-food"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pets-images">
+                <img id="pets" src="./images/penguin-158551_960_720.png" alt="">
+            </div>
+        </div>
+        <div class="controls-game">
+            <button id="start">Empezar</button>
+            <button id="makeSleep">Sleep</button>
+            <button id="makeFood">Food</button>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
